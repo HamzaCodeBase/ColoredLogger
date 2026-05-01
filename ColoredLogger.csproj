@@ -6,13 +6,18 @@
 	<TargetFramework>net10.0</TargetFramework>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<PackageId>ColoredLogger</PackageId>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Authors>Hamza Zafar</Authors>
 	<Company>Hamza</Company>
 	<Description>A lightweight, colored logging library for clean terminal output.</Description>
 	<PackageTags>console;logging;terminal;ui;styles</PackageTags>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<RepositoryUrl>https://github.com/HamzaCodeBase/ColoredLogger</RepositoryUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
 </Project>
