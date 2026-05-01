@@ -27,12 +27,12 @@ Standardized methods for common application states. Each method handles the pref
 
 **Terminal Output:**
 
-<pre>
-<span style="color:#32CD32">[SUCCESS] Server started on port 8080. </span>
-<span style="color:#1E90FF">[INFO]    Checking for updates...</span>
-<span style="color:#FFD700">[!]       Disk space is below 10%.</span>
-<span style="color:#FF4444">[ERROR]   User authentication failed.</span>
-</pre>
+```
+✅ [SUCCESS] Server started on port 8080.
+ℹ️ [INFO]    Checking for updates...
+⚠️ [!]       Disk space is below 10%.
+❌ [ERROR]   User authentication failed.
+```
 
 ### 2. Section Banners
 
@@ -44,11 +44,11 @@ Standardized methods for common application states. Each method handles the pref
 
 **Terminal Output:**
 
-<pre>
+```
 ================================================================================
                               DATABASE MIGRATION
 ================================================================================
-</pre>
+```
 
 ### 3. Basic & Custom Logging
 
@@ -61,10 +61,10 @@ Use `.Log()` for standard output without prefixes. You can optionally pass any `
 
 **Terminal Output:**
 
-<pre>
-<span style="color:#808080">Initialising modules...</span>
-<span style="color:#00FFFF">Processing background task...</span>
-</pre>
+```
+🔘 Initialising modules...
+🔹 Processing background task...
+```
 
 ## 📋 Full Integration Example
 
@@ -84,19 +84,19 @@ using ColoredLogger;
 
 **Visual Preview:**
 
-<pre>
-<span style="color:#00FFFF">================================================================================</span>
-<span style="color:#00FFFF">                                   APP STARTUP</span>
-<span style="color:#00FFFF">================================================================================</span>
-<span style="color:#808080">Loading environment variables...</span>
-<span style="color:#32CD32">[SUCCESS]</span> API Keys validated.
-<span style="color:#1E90FF">[INFO]   </span> Connecting to Database...
-<span style="color:#FFD700">[!]      </span> Connection timeout. Retrying (1/3)...
-<span style="color:#FF4444">[ERROR]  </span> Critical Error: Could not connect to DB.
-<span style="color:#00FFFF">--------------------------------------------------------------------------------</span>
-<span style="color:#00FFFF">                               PROCESS TERMINATED</span>
-<span style="color:#00FFFF">--------------------------------------------------------------------------------</span>
-</pre>
+```
+================================================================================
+                                   APP STARTUP
+================================================================================
+⚙️ Loading environment variables...
+✅ [SUCCESS] API Keys validated.
+ℹ️ [INFO]   Connecting to Database...
+⚠️ [!]      Connection timeout. Retrying (1/3)...
+❌ [ERROR]  Critical Error: Could not connect to DB.
+--------------------------------------------------------------------------------
+                               PROCESS TERMINATED
+--------------------------------------------------------------------------------
+```
 
 ## ⚖️ License
 
