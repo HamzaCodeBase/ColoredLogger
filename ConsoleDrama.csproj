@@ -12,7 +12,7 @@
 	<Description>A lightweight, colored logging library for clean terminal output.</Description>
 	<PackageTags>console;logging;terminal;ui;styles</PackageTags>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<RepositoryUrl>https://github.com/HamzaCodeBase/ConsoleDrama</RepositoryUrl>
+	<RepositoryUrl>https://github.com/HamzaCodeBase/ColoredLogger</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
