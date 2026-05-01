@@ -2,7 +2,7 @@
 
 namespace ColoredLogger;
 
-public static class DramaticLogger
+public static class ColoredLoggerExtensions
 {
     /// <summary>
     /// Core logging logic that handles coloring and label formatting.

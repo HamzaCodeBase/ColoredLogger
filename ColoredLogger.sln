@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.5.11723.231
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDrama", "ConsoleDrama.csproj", "{DAE80EA3-54D4-2F28-9429-6E04153E4760}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredLogger", "ColoredLogger.csproj", "{DAE80EA3-54D4-2F28-9429-6E04153E4760}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
