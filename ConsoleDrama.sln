@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDrama", "ConsoleDrama.csproj", "{DAE80EA3-54D4-2F28-9429-6E04153E4760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAE80EA3-54D4-2F28-9429-6E04153E4760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE80EA3-54D4-2F28-9429-6E04153E4760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE80EA3-54D4-2F28-9429-6E04153E4760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE80EA3-54D4-2F28-9429-6E04153E4760}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EE53EC7-9A42-4F86-857E-0A7AA6CAE1A8}
+	EndGlobalSection
+EndGlobal
